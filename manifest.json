@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "React/JavaScript Interview Questions",
+    "version": "1.0",
+    "description": "Displays random React/JavaScript interview questions and answers.",
+  "action": {
+        "default_popup": "popup.html",
+        "default_icon": "icon.png"
+    },
+    "permissions": [
+      "storage"
+    ]
+  }
+
+
+
+    

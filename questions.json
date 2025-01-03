@@ -1,0 +1,202 @@
+[
+  {
+      "question": "What is React?",
+      "answer": "React is a JavaScript library for building user interfaces."
+  },
+  {
+      "question": "What is JSX?",
+      "answer": "JSX is a syntax extension for JavaScript that looks similar to XML or HTML."
+  },
+  {
+      "question": "What is a component in React?",
+      "answer": "A component is a reusable piece of UI in React."
+  },
+  {
+      "question": "What are props in React?",
+      "answer": "Props are inputs to a React component that allow data to be passed from one component to another."
+  },
+  {
+      "question": "What is state in React?",
+      "answer": "State is an object that determines how a component renders and behaves."
+  },
+  {
+      "question": "What is the virtual DOM?",
+      "answer": "The virtual DOM is a lightweight copy of the actual DOM that React uses to optimize UI updates."
+  },
+  {
+      "question": "What is a functional component?",
+      "answer": "A functional component is a React component defined as a function that returns JSX."
+  },
+  {
+      "question": "What is a class component?",
+      "answer": "A class component is a React component defined as a class that extends React.Component."
+  },
+  {
+      "question": "What is a hook in React?",
+      "answer": "A hook is a special function in React that allows you to use state and other React features in functional components."
+  },
+  {
+      "question": "What is useState?",
+      "answer": "useState is a React hook that allows you to add state to functional components."
+  },
+  {
+      "question": "What is useEffect?",
+      "answer": "useEffect is a React hook that allows you to perform side effects in functional components."
+  },
+  {
+      "question": "What is the context API?",
+      "answer": "The context API is a React feature that allows you to pass data through the component tree without having to pass props down manually at every level."
+  },
+  {
+      "question": "What are keys in React?",
+      "answer": "Keys are unique identifiers for elements in an array to help React identify which items have changed."
+  },
+  {
+      "question": "What is the difference between state and props?",
+      "answer": "State is managed within the component, while props are passed to the component from its parent."
+  },
+  {
+      "question": "What is PropTypes?",
+      "answer": "PropTypes is a type-checking feature in React that ensures the props passed to a component are of the correct type."
+  },
+  {
+      "question": "What is a controlled component?",
+      "answer": "A controlled component is a component that derives its input values from state."
+  },
+  {
+      "question": "What is an uncontrolled component?",
+      "answer": "An uncontrolled component is a component that manages its own state internally."
+  },
+  {
+      "question": "What is React Router?",
+      "answer": "React Router is a library used for routing in React applications."
+  },
+  {
+      "question": "What is Redux?",
+      "answer": "Redux is a state management library for JavaScript applications."
+  },
+  {
+      "question": "What is a reducer in Redux?",
+      "answer": "A reducer is a function that determines changes to an application's state in response to an action."
+  },
+  {
+      "question": "What is an action in Redux?",
+      "answer": "An action is a plain JavaScript object that describes a change to the application's state."
+  },
+  {
+      "question": "What is the Redux store?",
+      "answer": "The Redux store is an object that holds the application's state."
+  },
+  {
+      "question": "What is middleware in Redux?",
+      "answer": "Middleware is a function in Redux that intercepts actions before they reach the reducer."
+  },
+  {
+      "question": "What is the difference between React and React Native?",
+      "answer": "React is used for building web applications, while React Native is used for building mobile applications."
+  },
+  {
+      "question": "What is the purpose of the render method in React?",
+      "answer": "The render method in React is used to return the JSX that should be rendered to the DOM."
+  },
+  {
+      "question": "What is a higher-order component?",
+      "answer": "A higher-order component is a function that takes a component and returns a new component with additional functionality."
+  },
+  {
+      "question": "What is a pure component?",
+      "answer": "A pure component is a component that only re-renders when its props or state change."
+  },
+  {
+      "question": "What is React.memo?",
+      "answer": "React.memo is a higher-order component that memoizes the rendered output of a functional component to prevent unnecessary re-renders."
+  },
+  {
+      "question": "What is the useRef hook?",
+      "answer": "The useRef hook is a React hook that allows you to create a mutable reference that persists across re-renders."
+  },
+  {
+      "question": "What is the useContext hook?",
+      "answer": "The useContext hook is a React hook that allows you to access the value of a context directly."
+  },
+  {
+      "question": "What is the useReducer hook?",
+      "answer": "The useReducer hook is a React hook that allows you to manage state with a reducer function."
+  },
+  {
+      "question": "What is the difference between useState and useReducer?",
+      "answer": "useState is used for simple state management, while useReducer is used for more complex state management involving multiple state transitions."
+  },
+  {
+      "question": "What is the useCallback hook?",
+      "answer": "The useCallback hook is a React hook that returns a memoized version of a callback function."
+  },
+  {
+      "question": "What is the useMemo hook?",
+      "answer": "The useMemo hook is a React hook that returns a memoized value."
+  },
+  {
+      "question": "What is the purpose of the defaultProps property?",
+      "answer": "The defaultProps property is used to set default values for the props of a component."
+  },
+  {
+      "question": "What is the purpose of the componentDidMount lifecycle method?",
+      "answer": "The componentDidMount lifecycle method is called after a component is mounted to the DOM."
+  },
+  {
+      "question": "What is the purpose of the componentDidUpdate lifecycle method?",
+      "answer": "The componentDidUpdate lifecycle method is called after a component is updated."
+  },
+  {
+      "question": "What is the purpose of the componentWillUnmount lifecycle method?",
+      "answer": "The componentWillUnmount lifecycle method is called before a component is unmounted and destroyed."
+  },
+  {
+      "question": "What is the purpose of the shouldComponentUpdate lifecycle method?",
+      "answer": "The shouldComponentUpdate lifecycle method is used to determine if a component should re-render."
+  },
+  {
+      "question": "What is the difference between a controlled and uncontrolled input element?",
+      "answer": "A controlled input element's value is controlled by React state, while an uncontrolled input element's value is managed by the DOM."
+  },
+  {
+      "question": "What is the purpose of the key attribute in React?",
+      "answer": "The key attribute helps React identify which items have changed, been added, or removed during re-rendering."
+  },
+  {
+      "question": "What is the purpose of the React.Fragment component?",
+      "answer": "React.Fragment allows you to group a list of children without adding extra nodes to the DOM."
+  },
+  {
+      "question": "What is a portal in React?",
+      "answer": "A portal allows you to render children into a DOM node that exists outside the parent component's DOM hierarchy."
+  },
+  {
+      "question": "What is server-side rendering (SSR)?",
+      "answer": "Server-side rendering is the process of rendering a React component on the server and sending the HTML to the client."
+  },
+  {
+      "question": "What is static site generation (SSG)?",
+      "answer": "Static site generation is the process of generating static HTML files for all the pages in a React application at build time."
+  },
+  {
+      "question": "What is hydration in React?",
+      "answer": "Hydration is the process of attaching event listeners to the pre-rendered HTML generated by server-side rendering."
+  },
+  {
+      "question": "What is the difference between a single-page application (SPA) and a multi-page application (MPA)?",
+      "answer": "An SPA loads a single HTML page and dynamically updates content, while an MPA loads a new HTML page for each route."
+  },
+  {
+      "question": "What is the purpose of the useLayoutEffect hook?",
+      "answer": "The useLayoutEffect hook is similar to useEffect but fires synchronously after all DOM mutations."
+  },
+  {
+      "question": "What is the purpose of the useImperativeHandle hook?",
+      "answer": "The useImperativeHandle hook allows you to customize the instance value that is exposed when using ref."
+  },
+  {
+      "question": "What is the purpose of the useDebugValue hook?",
+      "answer": "The useDebugValue hook is used to display a label for custom hooks in React DevTools."
+  }
+]
